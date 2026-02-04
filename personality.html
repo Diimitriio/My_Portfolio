@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personality Page</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Dancing+Script:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <style>
     body 
         {
             font-family: Arial;
-            background-color: rgb(46, 180, 89);
+            background-color: rgb(219, 219, 219);
             color: #004303;
             margin-top: 0px;
             margin-left: 0px;
@@ -36,14 +38,14 @@
         width: 200px;
         margin-top: 0px;
         margin-bottom: 10px;
-        color: rgb(46, 180, 89);
-        padding: 20px;
-        font-family: none;
+        color: rgb(0, 0, 0);
+        padding: 4px;
+        font-family: 'Montserrat', sans-serif;
     }
             
     header
             {   
-                background-color: #004303;
+                background-color: rgb(190, 190, 190);
                 color: white;
                 padding: 0px;
                 padding-bottom: 10px;
@@ -54,19 +56,19 @@
                 padding-left: 0px;
                 padding-right: 30px;
                 box-shadow: 0 2000px 4000px rgba(0, 0, 0, 0.2);
-                border-color: rgba(0, 0, 0, 0.2);
+                border-color: rgb(180, 46, 46);
                 border-style: solid;
-                border-bottom-width : 4px;
+                border-bottom-width : 3px;
                 border-left-width: 0px;
                 border-right-width: 0px;
             }
             
     .Logo
     {
-        font-family: Arial, sans-serif;
-        font-size: 100px;
-        color: rgb(46, 180, 89);
-        margin-top: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 80px;
+        color: rgb(180, 46, 46);
+        margin-top: 20px;
         margin-left: 200px;
         margin-bottom: 0px;      
     }
@@ -100,25 +102,27 @@
     .test
     {
         display: flex;
-        border: 5px solid #004303; /* Green border */
+        border: 5px solid rgb(180, 46, 46); 
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         margin-left: 60px;
-        margin-right: 1060px; 
+        margin-right: 1060px;
+        width: 350px;
     }
 
     section
     {
         /*display: flex;*/
         padding: 20px;
-        background-color: rgb(46, 180, 89);
+        background-color: rgb(219, 219, 219);
         color: #004303;
     }
 
     .nav1
             {
-                color: rgb(46, 180, 89);
-                margin-left: 700px;
-                margin-bottom: 10px;
+                color: rgb(180, 46, 46);
+                margin-top: -39px;
+                margin-left: 727px;
+                margin-bottom: 18px;
             }
 
     .p
@@ -146,7 +150,7 @@
     .Hero
     {
         display: flex;
-        border: 5px solid #004303; /* Green border */
+        border: 5px solid rgb(180, 46, 46); /* Green border */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         margin-left: 60px;
         margin-right: 1060px; 
@@ -155,10 +159,12 @@
 
     footer 
     {
-        background-color: #004303;
+        background-color: rgb(190, 190, 190);
         color: white;
         padding: 20px;
         position: bottom;
+        border-color: rgb(180, 46, 46);
+        border-top-width : 3px;
         text-align: center;
         min-height: 50px;
         width: 1500px;
@@ -172,17 +178,17 @@
 
     footer p 
     {
-        color: rgb(46, 180, 89);
+        color: rgb(0, 0, 0);
     }
     
     footer a 
     {
-        color: rgb(46, 180, 89); /* Green links */
+        color: rgb(0, 0, 0); /* Green links */
     }
     
     footer a:hover 
     {
-        color: #ccff00; /* Lime green on hover */
+        color: rgb(180, 46, 46); /* Lime green on hover */
     }
     </style>
 </head>
@@ -205,6 +211,9 @@
 <body id="top">
 
 <h1 class="h">My Personality Page</h1>
+<p class="h">
+This page explores the personal traits, values, and interests that shape who I am both academically and personally. It highlights my strongest characteristics, hobbies, and influences, including a personal hero and reflections from a personality assessment. Together, these elements provide insight into how my personality supports my growth, resilience, and approach to challenges.
+</p>
 <section>
     <ul>
     <h2>My Strongest Traits</h2>
@@ -220,7 +229,7 @@
     </ul>
 
     <h2 class="h2">My Hero: Nelson Mandela</h2>
-    <img class="Hero" src="C:\Users\dboss\Documents\2208645\Assets\Images\My Hero.jpg" alt="Nelson Mandela" width="350" height="450">
+    <img class="Hero" src="Assets\My Hero.jpg" alt="Nelson Mandela" width="350" height="450">
 
     <div class="p1">
     <p>Nelson Mandela is my hero due to his unwavering dedication to justice, equality, and human rights. As a fearless anti-apartheid activist and South Africa’s first Black president (1994–1999), he fought against racial oppression and championed unity and reconciliation. Despite enduring 27 years in prison, he remained committed to peace and democracy, inspiring movements for freedom worldwide. His resilience, leadership, and ability to forgive even his oppressors make him a true symbol of strength and hope. I chose Mandela as my hero because his life teaches the importance of perseverance, compassion, and standing up for what is right, no matter the challenges.
@@ -232,10 +241,10 @@
     </p>
     </div>
 
-    <div class="t">
+    <!--<div class="t">-->
     <h1 class="h3">Personality Test</h1>
-    <div class="test" >
-        <img  src="C:\Users\dboss\Documents\2208645\Assets\Images\Screenshot.png" alt="Personality Test Screenshot" width="350" height="450">
+    <div class="test">
+        <img  src="Assets\Screenshot.png" alt="Personality Test Screenshot" width="350" height="450">
     </div>
     
     <div class="p1" >
